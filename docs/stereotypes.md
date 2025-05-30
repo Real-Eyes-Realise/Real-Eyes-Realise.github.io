@@ -1,7 +1,9 @@
-# Education arebout Homelessness Stereotypes
+# Education about Homelessness Stereotypes
 
 > Homeless people are lazy
+
 > Homeless people are drug addicts
+
 > Homeless people choose to be homeless
 
 Let's start by getting one thing straight: the way we talk about **people** matters.
@@ -26,7 +28,7 @@ Youth in particularly vulnerable and make up 20% of the individuals experiencing
 
 There is no "typical" person experiencing homelessness. Not all groups are equally impacted, some are more likely to experience homelessness.
 
-**_1 in 2 people are one step away from experiencing homelessness, that could be YOU!_**
+**_1 in 2 people are one step away from experiencing homelessness, that could be YOU!_**[[1]](#1)
 
 ## What can YOU do?
 
@@ -38,3 +40,8 @@ There is no "typical" person experiencing homelessness. Not all groups are equal
 Homelessness does not define people.
 
 **But how we treat people experiencing homelessness does define us.**
+
+## References
+<a id="1">[1]</a> 
+Homeless Hub, "Who is Homeless in Canada," 2025. URL: 
+<https://homelesshub.ca/collection/homelessness-101/who-is-homeless-in-canada/> (Accessed May 30, 2025)

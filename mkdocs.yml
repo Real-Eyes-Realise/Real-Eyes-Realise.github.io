@@ -1,9 +1,17 @@
-site_name: RealEyes, Realize
+site_name: Real Eyes, Realise
 nav:
   - Home: index.md
-  - About: about.md
   - Education: stereotypes.md
   - Organizations: organizations.md
   - What to do with the bottle: recycling.md
   - Our Future: future.md
-theme: readthedocs
+theme:
+  name: material
+  logo: logo/smalllogo.png
+  icon: 
+    logo: logo/smalllogo.png
+  favicon: logo/smalllogo.png
+  palette:
+    scheme: default
+    primary: 'black'
+    accent: 'white'

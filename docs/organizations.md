@@ -14,7 +14,7 @@ A sharing and growing community where everyone has a home.
 
 # Trek For Teens
 
-<a href="https://trekforteens.com"><img src="https://pbs.twimg.com/media/EWXrjyjWkAQ5JgH.png"></a>
+<a href="https://www.trekforteens.com"><img src="https://pbs.twimg.com/media/EWXrjyjWkAQ5JgH.png"></a>
 
 We are a charity run by youth across the country, created to raise funds and awareness for homeless youth in Canada. In 2007, a team of high school students from the Toronto area were asked to create a plan for a charity at the Camp Enterprise program run by the Rotary Club of Etobicoke. The idea of Trek For Teens was chosen and the team worked under the mentorship of the Rotary Club for the first year.
 
