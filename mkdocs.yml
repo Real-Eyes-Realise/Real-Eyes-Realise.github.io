@@ -1,6 +1,7 @@
 site_name: Real Eyes, Realise
 nav:
   - Home: index.md
+  - About: about.md
   - Education: stereotypes.md
   - Organizations: organizations.md
   - What to do with the bottle: recycling.md
