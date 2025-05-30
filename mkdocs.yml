@@ -2,4 +2,8 @@ site_name: RealEyes, Realize
 nav:
   - Home: index.md
   - About: about.md
+  - Education: stereotypes.md
+  - Organizations: organizations.md
+  - What to do with the bottle: recycling.md
+  - Our Future: future.md
 theme: readthedocs
