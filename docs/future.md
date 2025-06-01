@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMNQKDMWQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CMNQKDMWQF');
+</script>
+
 # The future of our product
 
 With the advancement of technology within the decades and centuries, the future looks bright for different inventions on the rise.
