@@ -16,3 +16,7 @@ theme:
     scheme: default
     primary: 'black'
     accent: 'white'
+extra:
+  analytics:
+    provider: google
+    property: G-CMNQKDMWQF
