@@ -1,3 +1,14 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMNQKDMWQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CMNQKDMWQF');
+</script>
+
+
 # Horizons for Youth
 
 <a href="https://horizonsforyouth.org"><img src="https://images.squarespace-cdn.com/content/v1/58e3cd37c534a5264e49a0ea/1594921054310-Q4FP94C4NTTQ1P564UYE/HFY+transparent+logo.png"></a>
