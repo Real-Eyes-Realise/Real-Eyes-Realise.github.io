@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMNQKDMWQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CMNQKDMWQF');
+</script>
+
 # About us
 
 We are a passionate, interdisciplinary team from York University currently enrolled in a Capstone course focused on addressing homelessness in Canada. Given just three weeks to develop an innovative project around the themes of Invisibility, Community Awareness, Needs Identification, and Homelessness, we set out to create something impactful. We chose the name *Real Eyes Realize* to reflect our central message: recognizing the often-invisible realities of homelessness. Meet our team and discover our unique areas of expertise below:
