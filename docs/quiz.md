@@ -57,7 +57,7 @@ Welcome to the quiz! Select the best answer for each question and at the end, yo
   </fieldset>
 
   <fieldset class="md_card">
-    <legend><strong>4. Have you ever experienced housing insecurity or relid on others for shelter?</strong></legend>
+    <legend><strong>4. Have you ever experienced housing insecurity or relied on others for shelter?</strong></legend>
     <label><input type="radio" name="q4" value="1"> Never</label><br>
     <label><input type="radio" name="q4" value="2"> Once or twice</label><br>
     <label><input type="radio" name="q4" value="3"> Multiple times</label><br>
