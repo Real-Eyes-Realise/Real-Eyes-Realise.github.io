@@ -8,6 +8,8 @@
       
       
       
+        <link rel="canonical" href="https://realeyesrealise.ca/quiz/">
+      
       
         <link rel="prev" href="../organizations/">
       
@@ -401,6 +403,33 @@
 
 
 
+<style>
+  .result-box {
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .low-risk {
+    background-color: #2ecc71; /* green */
+  }
+
+  .moderate-risk {
+    background-color: #f1c40f; /* yellow */
+    color: #000;
+  }
+
+  .high-risk {
+    background-color: #e67e22; /* orange/red */
+  }
+
+  .immediate-risk {
+    background-color: #e74c3c; /* red */
+  }
+</style>
+
 <h1 id="are-you-at-risk-of-becoming-homeless">Are you at risk of becoming homeless?</h1>
 <p>Welcome to the quiz! Select the best answer for each question and at the end, you'll receive a result based on your total points.</p>
 <form id="quizForm" class="md-typeset">
@@ -429,7 +458,7 @@
   </fieldset>
 
   <fieldset class="md_card">
-    <legend><strong>4. Have you ever experienced housing insecurity or relid on others for shelter?</strong></legend>
+    <legend><strong>4. Have you ever experienced housing insecurity or relied on others for shelter?</strong></legend>
     <label><input type="radio" name="q4" value="1"> Never</label><br>
     <label><input type="radio" name="q4" value="2"> Once or twice</label><br>
     <label><input type="radio" name="q4" value="3"> Multiple times</label><br>
@@ -458,17 +487,23 @@ function calculateScore() {
     });
 
     let resultText = "";
+    let riskClass = "";
+
     if (total >= 18) {
         resultText = "Immediate Risk: You are at or near homelessness. Immediate action and support may be needed. Support options are listed below.";
+        riskClass = "immediate-risk";
     } else if (total >= 14) {
         resultText = "High Risk: You may be at significant risk of becoming homeless. Exploring resources or building stability now is essential.";
+        riskClass = "high-risk";
     } else if (total >= 10) {
         resultText = "Moderate Risk: You have some vulnerabilities that could lead to housing insecurity. Consider support systems.";
+        riskClass = "moderate-risk";
     } else {
         resultText = "Low Risk: You are currently stable, but it's important to understand that many people are not.";
+        riskClass = "low-risk";
     }
 
-    document.getElementById("result").innerHTML = `<h2>Result:</h2><p>${resultText}</p>`;
+    document.getElementById("result").innerHTML = `<div class="result-box ${riskClass}"><h2>Result:</h2><p>${resultText}</p></div>`;
 }
 </script>
 
