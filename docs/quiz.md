@@ -1,3 +1,32 @@
+<style>
+  .result-box {
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .low-risk {
+    background-color: #2ecc71; /* green */
+  }
+
+  .moderate-risk {
+    background-color: #f1c40f; /* yellow */
+    color: #000;
+  }
+
+  .high-risk {
+    background-color: #e67e22; /* orange/red */
+  }
+
+  .immediate-risk {
+    background-color: #e74c3c; /* red */
+  }
+</style>
+
+
+
 # Are you at risk of becoming homeless?
 
 Welcome to the quiz! Select the best answer for each question and at the end, you'll receive a result based on your total points.
@@ -57,17 +86,23 @@ function calculateScore() {
     });
 
     let resultText = "";
+    let riskClass = "";
+
     if (total >= 18) {
         resultText = "Immediate Risk: You are at or near homelessness. Immediate action and support may be needed. Support options are listed below.";
+        riskClass = "immediate-risk";
     } else if (total >= 14) {
         resultText = "High Risk: You may be at significant risk of becoming homeless. Exploring resources or building stability now is essential.";
+        riskClass = "high-risk";
     } else if (total >= 10) {
         resultText = "Moderate Risk: You have some vulnerabilities that could lead to housing insecurity. Consider support systems.";
+        riskClass = "moderate-risk";
     } else {
         resultText = "Low Risk: You are currently stable, but it's important to understand that many people are not.";
+        riskClass = "low-risk";
     }
 
-    document.getElementById("result").innerHTML = `<h2>Result:</h2><p>${resultText}</p>`;
+    document.getElementById("result").innerHTML = `<div class="result-box ${riskClass}"><h2>Result:</h2><p>${resultText}</p></div>`;
 }
 </script>
 

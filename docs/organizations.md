@@ -4,13 +4,10 @@
 
 Horizons for Youth is a shelter for at-risk and homeless youth between the ages of 16-24 years old in Toronto. We provide youth with the support they need to escape from the cycle of poverty and leave the streets behind.
 
-## Our mission
 
-To shelter, prepare and guide homeless and at-risk youth to achieve wellness and become contributing community members.
+<strong>Our mission:</strong> To shelter, prepare and guide homeless and at-risk youth to achieve wellness and become contributing community members.
 
-## Our vision
-
-A sharing and growing community where everyone has a home.
+<strong>Our Vision:</strong> A sharing and growing community where everyone has a home.
 
 # Trek For Teens
 
