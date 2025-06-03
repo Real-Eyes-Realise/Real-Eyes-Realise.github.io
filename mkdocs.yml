@@ -1,7 +1,7 @@
 site_name: Real Eyes, Realise
 site_url: https://realeyesrealise.ca
 nav:
-  - Home: index.md
+  - One Step Away...: index.md
   - Education: stereotypes.md
   - About: about.md
   - Organizations: organizations.md
