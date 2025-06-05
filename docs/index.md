@@ -1,53 +1,3 @@
-<style>
-  .flip-container {
-    perspective: 1000px;
-    width: 100%;
-    max-width: 350px;
-    margin: 40px auto;
-  }
-
-  .flipper {
-    position: relative;
-    width: 100%;
-    height: 220px;
-    transition: transform 0.6s ease-in-out;
-    transform-style: preserve-3d;
-  }
-
-  .flip-container:hover .flipper {
-    transform: rotateY(180deg);
-  }
-
-  .card-face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    backface-visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    color: #333;
-  }
-
-  .card-front {
-    background: linear-gradient(135deg, #ffffff, #f4f4f4);
-  }
-
-  .card-back {
-    background:rgb(127, 145, 163);
-    color: #f1f1f1;
-    transform: rotateY(180deg);
-  }
-</style>
-#One Step Away...
-
 # One Step Away...
 
 ## Mission
@@ -67,27 +17,26 @@ We pursue bold, innovative, & outrageous ideas using sticky messages on water bo
 We strive to address the root causes of homelessness by advocating for equality, accessibility to basic necessities, and complete and gradual overhaul of systemic change.
 We commit to ethical practices, respecting the dignity of all individuals, and ensuring our actions align positively with our purpose.
 
-
-
-<div class="flip-container">
-  <div class="flipper">
-    <div class="card-face card-front">
-      What is the mission?
-    </div>
-    <div class="card-face card-back">
-        Invoking societal thought and promoting social awareness of the rampantly increasing issue of homelessness in order to challenge misconceptions through creative & accessible public engagement strategies that raise awareness, inspire empathy, and mobilize community support.
-    </div>
-  </div>
-</div>
-
-
-<!-- Chat UI -->
 <div class="chat-box">
   <div class="chat-box-header">
     <h3 id="chat-title" style="font-size: 20px;">Chat with Josh</h3>
     <p id="chat-close"><i class="fa fa-times"></i></p>
   </div>
-  <div class="chat-box-body" id="chat-box">
+  
+  <!-- Disclaimer Modal inserted within the chat-box so it only covers the chat window -->
+  <div id="chat-disclaimer-modal" class="chat-disclaimer-modal">
+    <div class="modal-content">
+      <h3>Disclaimer</h3>
+      <p>
+        This chatbot simulates a conversation designed to raise awareness about homelessness in Toronto.
+        It is not a real person but an empathetic portrayal meant to inspire understanding. By clicking 
+        "Accept & Continue," you acknowledge this context.
+      </p>
+      <button id="accept-disclaimer" class="btn-accept">Accept & Continue</button>
+    </div>
+  </div>
+  
+  <div class="chat-box-body" id="chat-box-content">
     <!-- Messages will appear here -->
   </div>
   <div class="chat-box-footer">
@@ -99,3 +48,4 @@ We commit to ethical practices, respecting the dignity of all individuals, and e
 <div class="chat-button" id="chat-toggle">
   <img src="https://static.thenounproject.com/png/1156284-200.png" alt="Chat icon" width="40" height="40" />
 </div>
+

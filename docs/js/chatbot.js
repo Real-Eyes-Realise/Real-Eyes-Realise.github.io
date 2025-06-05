@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const chatBox = document.getElementById("chat-box");
+  const chatBox = document.getElementById("chat-box-content");
   const chatInput = document.getElementById("chat-input");
   const sendButton = document.getElementById("send-button");
   const chatTitle = document.getElementById("chat-title");
   const chatToggle = document.getElementById("chat-toggle");
+  const disclaimerModal = document.getElementById("chat-disclaimer-modal");
+  const acceptDisclaimer = document.getElementById("accept-disclaimer");
 
   const names = ["Josh", "Tyler", "Marcus", "Liam", "Andre", "Ray"];
   const selectedName = names[Math.floor(Math.random() * names.length)];
@@ -74,10 +76,15 @@ document.addEventListener("DOMContentLoaded", function () {
   chatToggle.addEventListener("click", function () {
     document.querySelector(".chat-box").style.visibility = "visible";
     document.querySelector(".chat-button").style.display = "none";
-    setTimeout(addInitialMessage, 300);
+    disclaimerModal.style.display = "flex";
   });
 
-    document.getElementById("chat-close").addEventListener("click", function () {
+  acceptDisclaimer.addEventListener("click", function () {
+    disclaimerModal.style.display = "none";
+    setTimeout(addInitialMessage, 300);
+  })
+
+  document.getElementById("chat-close").addEventListener("click", function () {
     document.querySelector(".chat-box").style.visibility = "hidden";
     document.querySelector(".chat-button").style.display = "block";
     chatBox.innerHTML = ""; // reset for new session

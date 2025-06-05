@@ -17,15 +17,26 @@ We are a charity run by youth across the country, created to raise funds and awa
 
 Since then, Trek For Teens has expanded to several regions and raised over $250,000 in funds and in-kind donations for local shelters. Our vision is for at-risk and homeless youth across Canada to be healthy, happy, safe and successful.
 
-
-
-<!-- Chat UI -->
 <div class="chat-box">
   <div class="chat-box-header">
     <h3 id="chat-title" style="font-size: 20px;">Chat with Josh</h3>
     <p id="chat-close"><i class="fa fa-times"></i></p>
   </div>
-  <div class="chat-box-body" id="chat-box">
+  
+  <!-- Disclaimer Modal inserted within the chat-box so it only covers the chat window -->
+  <div id="chat-disclaimer-modal" class="chat-disclaimer-modal">
+    <div class="modal-content">
+      <h3>Disclaimer</h3>
+      <p>
+        This chatbot simulates a conversation designed to raise awareness about homelessness in Toronto.
+        It is not a real person but an empathetic portrayal meant to inspire understanding. By clicking 
+        "Accept & Continue," you acknowledge this context.
+      </p>
+      <button id="accept-disclaimer" class="btn-accept">Accept & Continue</button>
+    </div>
+  </div>
+  
+  <div class="chat-box-body" id="chat-box-content">
     <!-- Messages will appear here -->
   </div>
   <div class="chat-box-footer">

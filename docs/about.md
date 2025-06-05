@@ -17,13 +17,26 @@ We are a passionate, interdisciplinary team from York University currently enrol
 
 Our project focuses on raising social awareness about homelessness. We've designed a water bottle with a unique label featuring an eye and a QR code, along with key information, that links directly to our website. We plan to distribute these bottles in high-traffic areas across the Greater Toronto Area, including workplaces, institutions, and potentially at corporate events. On a hot summer day, we know that free cold water is hard to resist. Our goal is to spark curiosity, encouraging people to scan the QR code and visit our site. There, they’ll find resources, stereotype-busting facts, and a quiz that helps them understand how close they might be to experiencing homelessness themselves. Ultimately, we want to humanize homelessness and show that we’re all in the same boat.
 
-<!-- Chat UI -->
 <div class="chat-box">
   <div class="chat-box-header">
     <h3 id="chat-title" style="font-size: 20px;">Chat with Josh</h3>
     <p id="chat-close"><i class="fa fa-times"></i></p>
   </div>
-  <div class="chat-box-body" id="chat-box">
+  
+  <!-- Disclaimer Modal inserted within the chat-box so it only covers the chat window -->
+  <div id="chat-disclaimer-modal" class="chat-disclaimer-modal">
+    <div class="modal-content">
+      <h3>Disclaimer</h3>
+      <p>
+        This chatbot simulates a conversation designed to raise awareness about homelessness in Toronto.
+        It is not a real person but an empathetic portrayal meant to inspire understanding. By clicking 
+        "Accept & Continue," you acknowledge this context.
+      </p>
+      <button id="accept-disclaimer" class="btn-accept">Accept & Continue</button>
+    </div>
+  </div>
+  
+  <div class="chat-box-body" id="chat-box-content">
     <!-- Messages will appear here -->
   </div>
   <div class="chat-box-footer">
