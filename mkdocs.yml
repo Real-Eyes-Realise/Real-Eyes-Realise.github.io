@@ -22,3 +22,7 @@ extra:
   analytics:
     provider: google
     property: G-CMNQKDMWQF
+extra_css:
+  - styles/chatbot.css
+extra_javascript:
+  - js/chatbot.js
