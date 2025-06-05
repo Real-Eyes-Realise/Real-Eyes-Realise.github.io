@@ -29,8 +29,9 @@ Since then, Trek For Teens has expanded to several regions and raised over $250,
       <h3>Disclaimer</h3>
       <p>
         This chatbot simulates a conversation designed to raise awareness about homelessness in Toronto.
-        It is not a real person but an empathetic portrayal meant to inspire understanding. By clicking 
-        "Accept & Continue," you acknowledge this context.
+        It is not a real person but an empathetic portrayal meant to inspire understanding. 
+        The outcomes of this conversation are not a direct reflection of the views and opinions of Real Eyes Realise, York University or the C4 classroom.
+        By clicking "Accept & Continue," you acknowledge this context.
       </p>
       <button id="accept-disclaimer" class="btn-accept">Accept & Continue</button>
     </div>
