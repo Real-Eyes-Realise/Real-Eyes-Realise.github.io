@@ -1,13 +1,34 @@
 # The future of our product
 
-With the advancement of technology within the decades and centuries, the future looks bright for different inventions on the rise.
+With the advancement of technology within the next few decades and centuries, the future looks bright for different inventions on the rise. 
 
-- Implement good quality materials - sustainability, environmentally friendly.
-- Work with health/safety to ensure it meets the standards. Perhaps an expert in that particular field, depending on inspections.
-- Gather consumer feedback on their thoughts, ideas, and get an overall consensus on what the population would prefer and/or need.
-- Marketing must be taken into consideration with edibles as it's something new and not common.
-- Partner with well established brands to spread the word and attention.
-- Can be displayed on other things like soda juices, food labeling, packaging etc.
+- Implement good quality materials - sustainability, environmentally friendly. 
+- Work with health/safety to ensure it meets the standards. Perhaps an expert in that particular field, depending on inspections. 
+- Gather consumer feedback on their thoughts, ideas, and get an overall consensus on what the population would prefer, more needed/less needed. Based on measurements? Stats?  
+- Marketing must be taken into consideration with edibles as it’s something new and not common. 
+- Partner with well established brands to spread the word and attention. 
+- Can be displayed on other things like soda, juices, food labeling, packaging etc. 
+
+## Environmental Impact
+
+- As we are actively looking for ways on promoting ethical recycling options, we need to educate ourselves and advertise the importance of eliminating pollution with our efforts on recycling plastic waste. Using less plastic on the water bottles is another way of encouraging sustainability in the environment. 
+- Reusable water bottles reduce pollution significantly as it is not single use, and improves the environmental impact. Reusable water bottles can be cleaned, washed, and used multiple times, reducing the need for extra materials. The water bottles are made with well durable and reliable materials that can be recycled many times. - reduce carbon footprint. Should be checked before we can be sure it is recyclable. 
+- Biodegradable water bottles advocate on plant-based, natural materials that can break down safely and slowly that wouldn't take much time to decompose. Natural materials like seaweed, bamboo, and glucose are used in the production of these bottles. The environmental impact can contribute to low toxins, low carbon footprint, and a cleaner & healthier environment. 
+- rPET bottles (more advanced traditional plastic?) Lower greenhouse gas emissions.
+- Edible water bottles? Consumable?
+- Made with sodium alginate/calcium lactate. Can add different colours and flavour? (Not sure about flavour?) chloride?
+- Substances
+    - Sodium alginate (which makes it homeless) 
+    - Calcium chloride. 
+
+### Myths
+- Expensive
+- Not safe to consume 
+- Not great taste
+- They are replaceable to actual plastic/reusable water bottles. 
+
+They are not perfect substitutes for plastic bottles. Have limitations in terms of size, dimensions and durability. 
+
 
 <div class="chat-box">
   <div class="chat-box-header">
